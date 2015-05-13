@@ -1,10 +1,12 @@
+
 #name{ 
-3         width:500px; 
-4         height: 262px; 
-5         margin-left: auto; 
-6         margin-right: auto; 
-7         position: relative; 
-8         color:#DC143C; 
-9         font-family: helvetica; 
-10         font-style: italic; 
-11         font-size: 25pt; 
+  width:500px; 
+  height: 262px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  position: relative; 
+  color:#DC143C; 
+  font-family: helvetica; 
+  font-style: italic; 
+  font-size: 25pt; 
+}
