@@ -1,37 +1,36 @@
 <!DOCTYPE html>
-<style> 
-body { 
-background-image: url("http://i.imgur.com/JXDrp5o.gif?1"); 
-
-font-family: 'Open Sans', sans-serif; 
-text-align: center;
-} 
-h3 {
-margin-top: -5px;
+<head>
+<title>Return to about me>
+<style>
+body{ background-image: url("http://s15.postimg.org/4hdgwn0jv/leather_1.png")
 }
-</style>
-<title>Contact Me</title>
-<img src="http://i.imgur.com/0BwnlZW.jpg" width="400">
+#logo{
+width:200px
+height;200px
+}
 
-<h3> Pia Jaramillo Website</h3>
-<header><h1>Contact</h1></header>
-<body>
-<nav> 
+</style> 
+</head>
+<img id+"logo" src="http://i.imgur.com/JXDrp5o.gif?1">
+<h1>Home</h1>
+<nav>
 <a href="index.html">Home |</a> 
-<a href="about.html">About Me |</a> 
-<a href="portfolio.html">Portfolio |</a>
-<a href="contact.html">Contact |</a> 
+<a href="about.html">About |</a> 
+<a href="resume.html">Resume |</a> 
+<a href="contact.html">Contact</a> 
 </nav> 
-<br>
-<section id="form">
-<form action="demo_form.asp" method="get">
-Name:<br>
-<input type="text" name="name"><br>
-Email:<br>
-<input type="text" name="email"><br>
-Message:<br>
-<input type="text" name="message"><br>
-</form>
-</section>
-<p>Email me for more information:Mariapiasuarez17@gmail.com </p>
-</body>
+
+<section id="form" <form="action="demo_form.asp" method="get">
+   Name:<br>
+   <input type="text" name="name"><br> 
+Email:<br> 
+<input type="text" name="email"><br> 
+Message:<br> 
+<input type="text" name="message"><br> 
+<input type="submit" value="Submit"> 
+</section> 
+
+
+
+
+
