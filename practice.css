@@ -65,8 +65,7 @@
 }
 
 #footer {
-    position:fixed;
-    bottom:0;
+    display: inline;
     vertical-align: bottom;
 }
 
