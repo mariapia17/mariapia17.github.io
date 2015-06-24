@@ -65,7 +65,8 @@
 }
 
 #footer {
-    display: inline;
-    vertical-align: bottom;
+  display: inline !important;
+   position: relative;
+   zoom: 1;
 }
-
+  
