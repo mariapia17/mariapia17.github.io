@@ -64,6 +64,13 @@
     margin-bottom: 13px;    
 }
 }
+.footer a {
+display: block;
+margin-left: auto;
+margin-right: auto;
+float: left;
+}
+}
 
 .footer li { 
    display:inline;
