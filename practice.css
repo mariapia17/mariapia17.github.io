@@ -1,17 +1,4 @@
-/*	
-	Side Navigation Menu
-	===================
-	License:
-	http://goo.gl/KC3XXj
-	===================
-	Author: @PableraShow
-
- */
-
 @import url(http://pablogarciafernandez.com/css/reset.css);
-
-/* Typography
-------------------------------------- */
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
@@ -22,7 +9,7 @@ body {
   color:#4D4D4D;
 }
 
-/* Navigation */
+
 
 a {
   text-transform: uppercase;
@@ -50,10 +37,10 @@ nav:hover a {
 svg,
 a { vertical-align: top; }
 
-/* End Navigation */
 
 
-/* Sections */
+
+
 
 h1 {
   font-family: 'Open Sans', sans-serif;
@@ -67,14 +54,13 @@ h2 { font-weight: 300; }
 
 h2 a { font-weight: 700; }
 
-/* End Sections */
 
 
-/* Structure
-------------------------------------- */
+
+
 body { background: #f1f1f1; }
 
-/* Navigation */
+
 
 nav {
   position: fixed;
@@ -125,13 +111,10 @@ li {
 svg,
 a { display: inline-block; }
 
-/* End Navigation */
 
-/* Sections */
 
 section { padding: 2em 0 0 14em; }
 
-/* End sections */
 
 
 
