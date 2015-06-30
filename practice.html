@@ -3,26 +3,74 @@
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="practice.css">
-    <meta charset="utf-8">
-<meta name="description" content="description">
-  <link rel="stylesheet" media="screen" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="cufon-yui.js" type="text/javascript"></script>
+<script src="BabelSans_500.font.js" type="text/javascript"></script>
+<script src="jquery.easing.1.3.js" type="text/javascript"></script>
   
 	<img id="logo" src="http://i.imgur.com/JXDrp5o.gif?1" width="400" alt="logo">
   	</center>
  </head>
 
-<ul id="nav">
-  <li><a href="index.html">Home |</a></li>
+<ul id="slidingMenu" class="slidingMenu">
+<li><a href="index.html">Home |</a></li>
   <li><a href="about.html">About |</a></li>  
   <li><a href="resume.html">Resume |</a></li>  
   <li><a href="contact.html">Contact|</a></li>
   <li><a href="gallery.html">Gallery|</a></li> 
 </ul>
 
+  (function() {
+	Cufon.replace('a, span').CSS.ready(function() {
+		var $menu 		= $("#slidingMenu");
 
+		
+		var $selected	= $menu.find('li:first');
 
+		
+		var $moving		= $('<li />',{
+			className	: 'move',
+			top			: $selected[0].offsetTop + 'px',
+			width		: $selected[0].offsetWidth + 'px'
+		});
 
-  
+		
+		$('#slidingMenuDesc > div').each(function(i){
+			var $this = $(this);
+			$this.css('top',$menu.find('li:nth-child('+parseInt(i+2)+')')[0].offsetTop + 'px');
+		});
+
+		
+		$menu.bind('mouseleave',function(){
+				moveTo($selected,400);
+			  })
+			 .append($moving)
+			 .find('li')
+			 .not('.move')
+			 .bind('mouseenter',function(){
+				var $this = $(this);
+				var offsetLeft = $this.offset().left - 20;
+				//slide in the description
+				$('#slidingMenuDesc > div:nth-child('+ parseInt($this.index()) +')').stop(true).animate({'width':offsetLeft+'px'},400, 'easeOutExpo');
+				//move the absolute div to this item
+				moveTo($this,400);
+			  })
+			  .bind('mouseleave',function(){
+				var $this = $(this);
+				var offsetLeft = $this.offset().left - 20;
+				//slide out the description
+				$('#slidingMenuDesc > div:nth-child('+ parseInt($this.index()) +')').stop(true).animate({'width':'0px'},400, 'easeOutExpo');
+			  });;
+
+		
+		function moveTo($elem,speed){
+			$moving.stop(true).animate({
+				top		: $elem[0].offsetTop + 'px',
+				width	: $elem[0].offsetWidth + 'px'
+			}, speed, 'easeOutExpo');
+		}
+	}) ;
+});
 
 
 		
