@@ -36,8 +36,8 @@
 
 }
 #centeredmenu ul li a:hover {
-   background:#FFFFFF;
-   color:#0000;
+   background:#FF6666;
+   color:#fff;
 }
 #centeredmenu ul li a.active,
 #centeredmenu ul li a.active:hover {
