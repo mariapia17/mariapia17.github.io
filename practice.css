@@ -64,7 +64,7 @@
 .jumbotron h1 {
   color: black;
   font-size: 48px;  
-  font-family: 'Shift', sans-serif;
+  font-family: 'Special Elite', cursive;;
   font-weight: bold;
 }
 
@@ -74,11 +74,11 @@
 }
 
 .learn-more {
-  background-color: #fff;
+   background-color: #efefef;
 }
 
 .learn-more h3 {
-  font-family: 'Shift', sans-serif;
+  font-family: 'Special Elite', cursive;
   font-size: 18px;
   font-weight: bold;
 }
