@@ -53,7 +53,7 @@
   background-image:url(http://i.imgur.com/BLor2Gg.jpg?1);
   height: 500px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .jumbotron .container {
