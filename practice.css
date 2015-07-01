@@ -29,14 +29,14 @@
    display:block;
    margin:0 0 0 1px;
    padding:3px 10px;
-   background:#ddd;
-   color:#fff;
+   background:#fff;
+   color:#0000;
    text-decoration:none;
    line-height:2.3em;
 
 }
 #centeredmenu ul li a:hover {
-   background:#369;
+   background:#66FFFF;
    color:#fff;
 }
 #centeredmenu ul li a.active,
@@ -45,6 +45,7 @@
    background:#000;
    font-weight:bold;
    font-family: 'Cabin Sketch', cursive;
+   font size:small;
 }
 
 .jumbotron {
