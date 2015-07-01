@@ -29,8 +29,8 @@
    display:block;
    margin:0 0 0 1px;
    padding:3px 10px;
-   background:#FF6666
-   color:#00000;
+   background:#fff
+   color:#0000;
    text-decoration:none;
    line-height:2.3em;
 
@@ -41,7 +41,7 @@
 }
 #centeredmenu ul li a.active,
 #centeredmenu ul li a.active:hover {
-   color:#0000;
+   color:#000;
    background:fff;
    font-weight:bold;
    font-family: 'Cabin Sketch', cursive;
