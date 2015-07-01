@@ -1,8 +1,8 @@
 #centeredmenu {
    float:left;
    width:100%;
-   background:#99FFCC;
-   border-bottom:4px solid #0000;
+   background:#fff;
+   border-bottom:4px solid #fff;
    overflow:hidden;
    position:relative;
 }
@@ -29,20 +29,20 @@
    display:block;
    margin:0 0 0 1px;
    padding:3px 10px;
-   background:#0000;
-   color:#99FFCC;
+   background:#99FFCC;
+   color:#fff;
    text-decoration:none;
    line-height:2.3em;
 
 }
 #centeredmenu ul li a:hover {
-   background:##66FFCC;
+   background:#83FFD6;
    color:#0000;
 }
 #centeredmenu ul li a.active,
 #centeredmenu ul li a.active:hover {
    color:#0000;
-   background:#99FFCC;
+   background:#83FFD6;
    font-weight:bold;
    font-family: 'Cabin Sketch', cursive;
 }
