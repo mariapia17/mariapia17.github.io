@@ -29,22 +29,23 @@
    display:block;
    margin:0 0 0 1px;
    padding:3px 10px;
-   background:#99FFCC;
-   color:#0000;
+   background:#5CE6B8;
+   color:#fff;
    text-decoration:none;
    line-height:2.3em;
 
 }
 #centeredmenu ul li a:hover {
-   background:#8AE6B8;
+   background:#5CE6B8;
    color:#0000;
 }
 #centeredmenu ul li a.active,
 #centeredmenu ul li a.active:hover {
    color:#0000;
-   background:#6BB28F;
+   background:#66FFCC;
    font-weight:bold;
    font-family: 'Cabin Sketch', cursive;
+   
 }
 
 .jumbotron {
