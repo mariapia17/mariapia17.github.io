@@ -1,7 +1,7 @@
 #centeredmenu {
    float:left;
    width:100%;
-   background:#99FFCC;
+   background:#fff;
    border-bottom:4px solid #000;
    overflow:hidden;
    position:relative;
@@ -30,7 +30,7 @@
    margin:0 0 0 1px;
    padding:3px 10px;
    background:#ddd;
-   color:#000;
+   color:#fff;
    text-decoration:none;
    line-height:2.3em;
 
