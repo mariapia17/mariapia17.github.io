@@ -29,20 +29,20 @@
    display:block;
    margin:0 0 0 1px;
    padding:3px 10px;
-   background:#fff
+   background:#FFFFFF
    color:#00000;
    text-decoration:none;
    line-height:2.3em;
 
 }
 #centeredmenu ul li a:hover {
-   background:#fff;
+   background:#FFFFFF;
    color:#0000;
 }
 #centeredmenu ul li a.active,
 #centeredmenu ul li a.active:hover {
    color:#0000;
-   background:#fff
+   background:#FFFFFF
    font-weight:bold;
    font-family: 'Cabin Sketch', cursive;
 }
