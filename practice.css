@@ -2,7 +2,7 @@
    float:left;
    width:100%;
    background:#fff;
-   border-bottom:4px solid #fff;
+   border-bottom:4px solid #0000;
    overflow:hidden;
    position:relative;
 }
@@ -29,20 +29,20 @@
    display:block;
    margin:0 0 0 1px;
    padding:3px 10px;
-   background:#fff
-   color:#0000;
+   background:#66FFCC;
+   color:#00000;
    text-decoration:none;
    line-height:2.3em;
 
 }
 #centeredmenu ul li a:hover {
-   background:#FF6666;
+   background:##66FFCC;
    color:#fff;
 }
 #centeredmenu ul li a.active,
 #centeredmenu ul li a.active:hover {
-   color:#000;
-   background:fff;
+   color:#66FFCC;
+   background:#0000;
    font-weight:bold;
    font-family: 'Cabin Sketch', cursive;
 }
