@@ -50,7 +50,8 @@
 
 .jumbotron {
   background-image:url(http://i.imgur.com/jehh067.jpg?1);
-  height: 500px;
+  height:500px;
+  width: 250px;
   
   background-repeat: no-repeat;
   background-size: cover;
