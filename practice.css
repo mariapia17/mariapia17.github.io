@@ -47,14 +47,19 @@
    font-family: 'Special Elite', cursive;
    
 }
+ 
+
+
 
 .jumbotron {
-  background-image:url(http://i.imgur.com/jehh067.jpg?1);
-  height:500px;
-  width: 250px;
-  
-  background-repeat: no-repeat;
-  background-size: cover;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url(http://i.imgur.com/jehh067.jpg?1) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .jumbotron .container {
